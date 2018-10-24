@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
     private int mCount=0;
     private TextView mShowCount;
 
+    //todo 01: orientation change resets counter - fix this
+    //todo 02: landscape layout needs to be made. The current one cuts the counter on some screens
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
